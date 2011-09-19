@@ -32,7 +32,7 @@ module Arbre
     # Caches the rendered HTML so that we don't re-render just to
     # get the content lenght or to delegate a method to the HTML
     def cached_html
-      @cached_html ||= to_html
+      to_html
     end
 
   end
